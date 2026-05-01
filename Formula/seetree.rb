@@ -1,34 +1,34 @@
 class Seetree < Formula
-  desc "Live terminal tree viewer that lights up as Claude Code edits files"
+  desc "Tiny terminal tree viewer and Claude Code companion"
   homepage "https://github.com/ramonclaudio/seetree"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ramonclaudio/seetree/releases/download/v0.1.0/seetree-aarch64-macos"
-      sha256 "da3f2481d0ff887ee70fa780e7bed30fa7cca5e117cceeadc521802072c3c80f"
+      url "https://github.com/ramonclaudio/seetree/releases/download/v0.1.1/seetree-aarch64-macos"
+      sha256 "cbfcae714b96026ae76f486df3a2262bee51a652b129415edbd3a8d80376aa71"
     end
     on_intel do
-      url "https://github.com/ramonclaudio/seetree/releases/download/v0.1.0/seetree-x86_64-macos"
-      sha256 "18521459773da33daa37f0183e89f5f0cc163f41ef3fd145c68294be558037bf"
+      url "https://github.com/ramonclaudio/seetree/releases/download/v0.1.1/seetree-x86_64-macos"
+      sha256 "cecc03409b46c9beb423fd41604b1856207a6b5ee4af33b6ea246a0c3663d1e4"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ramonclaudio/seetree/releases/download/v0.1.0/seetree-aarch64-linux-musl"
-      sha256 "4921c4ec2bc731f755bd72ac58a04d93b71c922b0078ad8bc2b0fbc805bfaa88"
+      url "https://github.com/ramonclaudio/seetree/releases/download/v0.1.1/seetree-aarch64-linux-musl"
+      sha256 "09b2108a324fc0b670df0fc7333e410f9f1200ea2bcbdee6bae4c234b3e89d31"
     end
     on_intel do
-      url "https://github.com/ramonclaudio/seetree/releases/download/v0.1.0/seetree-x86_64-linux-musl"
-      sha256 "bc0b3a3601bfe9a4f8167ae397ebf637385cd0d0c912298c890405e6b8d583db"
+      url "https://github.com/ramonclaudio/seetree/releases/download/v0.1.1/seetree-x86_64-linux-musl"
+      sha256 "59db3bf13ba4bb34d7c8ba47e5ae651f350aface88af389f79039179482c0d7e"
     end
   end
 
   resource "extras" do
-    url "https://github.com/ramonclaudio/seetree/releases/download/v0.1.0/seetree-extras.tar.gz"
-    sha256 "0c89ae0d816a480a907260d34ff527eb3df1edcfc95ca0530efc6a5f8019df07"
+    url "https://github.com/ramonclaudio/seetree/releases/download/v0.1.1/seetree-extras.tar.gz"
+    sha256 "e55cf642fa2b452515516258f9edd82cf70a2ec1ae28b2f165403b7963f5ff60"
   end
 
   def install
